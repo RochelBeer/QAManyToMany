@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QAManyToMany55.Web", "QAManyToMany55.Web\QAManyToMany55.Web.csproj", "{76B76F5E-E695-4226-8281-8A8313A65053}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QAManyToMany.Data", "QAManyToMany.Data\QAManyToMany.Data.csproj", "{B62A6A65-6231-4A1B-AADD-7D2F731F4AEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76B76F5E-E695-4226-8281-8A8313A65053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B76F5E-E695-4226-8281-8A8313A65053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B76F5E-E695-4226-8281-8A8313A65053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B76F5E-E695-4226-8281-8A8313A65053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B62A6A65-6231-4A1B-AADD-7D2F731F4AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B62A6A65-6231-4A1B-AADD-7D2F731F4AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B62A6A65-6231-4A1B-AADD-7D2F731F4AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B62A6A65-6231-4A1B-AADD-7D2F731F4AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {860A57BF-A014-40FE-801D-E92DD436C348}
+	EndGlobalSection
+EndGlobal

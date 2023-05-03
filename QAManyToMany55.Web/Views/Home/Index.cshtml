@@ -1,0 +1,40 @@
+﻿@model ViewModel
+@using QAManyToMany.Data
+
+
+<div class="row">
+    <div class="col-md-8 offset-md-2" style="margin-top:100px">
+        @foreach (Question question in Model.Questions)
+        {
+            <div class="card card-body bg-light">
+                <h4>
+                    <a href="/questions/viewquestion?id=@question.Id">
+                        @question.Title
+                    </a>
+                </h4>
+                <div>
+                    <span>Tags:</span>
+                    @foreach (QuestionTags questionTag in question.QuestionsTags)
+                    {
+                        <span class="badge bg-primary">@questionTag.Tag.Name</span>
+                    }
+                </div>
+                <div style="margin-top: 10px;">
+                    @if (question.Text.Length < 200)
+                    {
+                        @question.Text
+                    }
+                    else
+                    {
+                        @question.Text.Substring(0,200 )
+                    }
+                </div>
+
+                <br />
+                <span>@question.Answers.Count answer(s)</span>
+            </div>
+
+        }
+    </div>
+</div>
+
